@@ -37,7 +37,7 @@ To evaluate the abstract art of animal faces the use of a fitness function is be
 1. Continue to mutate and cross over functions.
 1. Repeat from step 1 until the canvas represents the target in the form of abstract dot art.
 
-To calculate the percentage as mentioned in step 4 previously the following formula labelled [Equation 1](#mergeformat) is used:
+To calculate the percentage as mentioned in step 4 previously the following formula labelled Equation 1 is used:
 
 P=xy×100
 
@@ -49,7 +49,7 @@ y = 255
 
 <a name="_ref152798310"></a><a name="_toc153132879"></a>*Equation 1. Percentage Formula*
 
-Once the percentage of each pixel is calculated the percentages are added together and divided by the total pixels as mentioned in step 5 previously. The formula to calculate the average is shown in [Equation 2](#mergeformat) below:
+Once the percentage of each pixel is calculated the percentages are added together and divided by the total pixels as mentioned in step 5 previously. The formula to calculate the average is shown in Equation 2 below:
 
 A=1ni=1nai
 
@@ -57,11 +57,11 @@ A = mean (average)
 
 n = number of pixels
 
-ai = value of P from [Equation 1](#mergeformat)
+ai = value of P from Equation 1
 
 <a name="_ref152798470"></a><a name="_toc153132880"></a>*Equation 2. Average Calculation Formula.*
 
-The result from “A” in [Equation 2](#mergeformat) is used as the fitness score. Using both formulas from [Equation 1](#mergeformat) and [Equation 2](#mergeformat) create the score to find the fitness for each chromosome in the population. The chromosomes with the higher number scores are then discarded and the ones with the lowest scores are kept for breeding. This is used to find the best possible results for the project using the fitness level of each chromosome. To continue the discussion of generating AI abstract art of animal faces the next section discusses the limitations that where had throughout the project.
+The result from “A” in Equation 2 is used as the fitness score. Using both formulas from Equation 1 and Equation 2 create the score to find the fitness for each chromosome in the population. The chromosomes with the higher number scores are then discarded and the ones with the lowest scores are kept for breeding. This is used to find the best possible results for the project using the fitness level of each chromosome. To continue the discussion of generating AI abstract art of animal faces the next section discusses the limitations that where had throughout the project.
 
 # Limitations
 This project of creating abstract AI art of animal faces has some limitations. One of the limitations was the generation time for each photo. It took many hours just to generate one image and sometimes was required to run the algorithm over night. To overcome this to get all the photos done before the deadline the algorithm was ran simultaneously for each photo on different cores of the CPU. Another limitation was the algorithm crashed while in the process for generating the photos. This set the project back since the generation had to be restarted from the beginning. To rectify this the project was restarted but this time with a more powerful computer. These to limitations though difficult where able to be over come through perseverance of this project. To continue about the process, for creating abstract art of animal faces the next section goes over the gallery of art generated.
@@ -69,49 +69,31 @@ This project of creating abstract AI art of animal faces has some limitations. O
 # Gallery
 The creations for this project used three different photos. The photos are a photo of a bear [3], goose [4], and moose [5]. These are photos taken in British Columbia Canada depicted in figures 1, 2, and 3 below:
 
-![](Aspose.Words.50d5b5bb-ddaf-48fd-b0e8-29750f6d398e.001.jpeg)
 
 <a name="_toc153132885"></a>*Figure 1. Bear Photo [3]**
 
-![Canada goose](Aspose.Words.50d5b5bb-ddaf-48fd-b0e8-29750f6d398e.002.jpeg) 
+
 
 <a name="_toc153132886"></a>*Figure 2. Goose Photo [4]**
-
-![A moose with large antlers
-
-Description automatically generated](Aspose.Words.50d5b5bb-ddaf-48fd-b0e8-29750f6d398e.003.png)
 
 <a name="_toc153132887"></a>*Figure 3. Moose photo [5]**
 
 The starting background is set to a default of all white so to get the best possible output the backgrounds for the target photos should also be white. To do this the photos have been edited for use as target photos as seen below in figures 4, 5, and 6:
 
-![A close up of a bear
-
-Description automatically generated](Aspose.Words.50d5b5bb-ddaf-48fd-b0e8-29750f6d398e.004.jpeg)
 
 <a name="_toc153132888"></a>*Figure 4. Bear Photo Edited*
 
-![](Aspose.Words.50d5b5bb-ddaf-48fd-b0e8-29750f6d398e.005.jpeg)
-
 <a name="_toc153132889"></a>*Figure 5. Goose Photo Edited*
 
-![A close-up of a moose
-
-Description automatically generated](Aspose.Words.50d5b5bb-ddaf-48fd-b0e8-29750f6d398e.006.jpeg)
 
 <a name="_toc153132890"></a>*Figure 6. Mose Photo Edited*
 
 Using the photos as the target as mentioned in Figure 4, 5, and 6 the following output was created in figure 7, 8, and 9 after 60000 generations of each:
 
-![](Aspose.Words.50d5b5bb-ddaf-48fd-b0e8-29750f6d398e.007.png)
 
 <a name="_toc153132891"></a>*Figure 7: Bear Abstract Art Result*
 
-![](Aspose.Words.50d5b5bb-ddaf-48fd-b0e8-29750f6d398e.008.png)
-
 <a name="_toc153132892"></a>*Figure 8: Goose Abstract Art Result*
-
-![](Aspose.Words.50d5b5bb-ddaf-48fd-b0e8-29750f6d398e.009.png)
 
 <a name="_toc153132893"></a>*Figure 9: Moose Abstract Art Result*
 
