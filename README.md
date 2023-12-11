@@ -81,12 +81,12 @@ The creations for this project used three different photos. The photos are a pho
 The starting background is set to a default of all white so to get the best possible output the backgrounds for the target photos should also be white. To do this the photos have been edited for use as target photos as seen below in figures 4, 5, and 6:
 
 
-<a name="_toc153132888"></a>*Figure 4. Bear Photo Edited*
+<a name="Bear.jpeg"></a>*Figure 4. Bear Photo Edited*
 
-<a name="_toc153132889"></a>*Figure 5. Goose Photo Edited*
+<a name="Goose.jpg"></a>*Figure 5. Goose Photo Edited*
 
 
-<a name="_toc153132890"></a>*Figure 6. Mose Photo Edited*
+<a name="Moose.jpg"></a>*Figure 6. Moose Photo Edited*
 
 Using the photos as the target as mentioned in Figure 4, 5, and 6 the following output was created in figure 7, 8, and 9 after 60000 generations of each:
 
