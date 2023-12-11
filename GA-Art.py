@@ -72,20 +72,16 @@ def newCircle():
 def fitness(canvas):
     canvasArr = np.array(canvas, np.int16)
     targetArr = np.array(TARGET_ARR, np.int16)
+
+    # Below:    Find the absolute value of canvas - the target then calculate the percentage.
+    #           Add all the averages of each pixel together and divide by the canvas size to find the average.
+    #           Lowest average means it is closer to the target than higher averages.
     score = (np.sum(np.abs(canvasArr - targetArr)) / 255.0 * 100) / canvasArr.size
     return score
 
 # mutation function
 def mutation(population, gen):
-    # # genMut to keep track if the generation has passed 1/4 of total generations
-    # genMut = GENERATIONS//4
-    # odd = 2 # odds initially set to be between 0-2 for 3 options
 
-    # # if statement to check for if gen has passed 1/4 of total generations
-    # # if True odds are set between 0-1 for 2 options
-    # if (gen == genMut):
-    #     odd = 1
-    
     for i in range(len(population)):
         genes = population[i][1]
         mutOdds = random.randint(0,1)
